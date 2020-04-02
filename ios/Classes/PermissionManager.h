@@ -11,7 +11,6 @@
 
 #import "AudioVideoPermissionStrategy.h"
 #import "LocationPermissionStrategy.h"
-#import "MediaLibraryPermissionStrategy.h"
 #import "PermissionStrategy.h"
 #import "PhotoPermissionStrategy.h"
 #import "UnknownPermissionStrategy.h"
