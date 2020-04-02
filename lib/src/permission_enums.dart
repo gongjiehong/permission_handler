@@ -99,27 +99,22 @@ class PermissionGroup {
   /// iOS: CoreLocation - WhenInUse
   static const PermissionGroup locationWhenInUse = PermissionGroup._(3);
 
-  /// Android: None
-  /// iOS: MPMediaLibrary
-  static const PermissionGroup mediaLibrary = PermissionGroup._(4);
-
   /// Android: Microphone
   /// iOS: Microphone
-  static const PermissionGroup microphone = PermissionGroup._(5);
+  static const PermissionGroup microphone = PermissionGroup._(4);
 
   /// Android: Nothing
   /// iOS: Photos
-  static const PermissionGroup photos = PermissionGroup._(6);
+  static const PermissionGroup photos = PermissionGroup._(5);
 
   /// The unknown permission only used for return type, never requested
-  static const PermissionGroup unknown = PermissionGroup._(7);
+  static const PermissionGroup unknown = PermissionGroup._(6);
 
   static const List<PermissionGroup> values = <PermissionGroup>[
     camera,
     location,
     locationAlways,
     locationWhenInUse,
-    mediaLibrary,
     microphone,
     photos,
     unknown,
@@ -130,7 +125,6 @@ class PermissionGroup {
     'location',
     'locationAlways',
     'locationWhenInUse',
-    'mediaLibrary',
     'microphone',
     'photos',
     'unknown',
